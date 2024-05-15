@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52CA757F2BF4D576006971EA /* Nimble_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA757E2BF4D576006971EA /* Nimble_testApp.swift */; };
+		52CA75812BF4D576006971EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA75802BF4D576006971EA /* ContentView.swift */; };
+		52CA75832BF4D578006971EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CA75822BF4D578006971EA /* Assets.xcassets */; };
+		52CA75862BF4D578006971EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CA75852BF4D578006971EA /* Preview Assets.xcassets */; };
+		52CA75902BF4D578006971EA /* Nimble_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA758F2BF4D578006971EA /* Nimble_testTests.swift */; };
+		52CA759A2BF4D578006971EA /* Nimble_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA75992BF4D578006971EA /* Nimble_testUITests.swift */; };
+		52CA759C2BF4D578006971EA /* Nimble_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA759B2BF4D578006971EA /* Nimble_testUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CA758C2BF4D578006971EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CA75732BF4D576006971EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CA757A2BF4D576006971EA;
+			remoteInfo = "Nimble test";
+		};
+		52CA75962BF4D578006971EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CA75732BF4D576006971EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CA757A2BF4D576006971EA;
+			remoteInfo = "Nimble test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52CA757B2BF4D576006971EA /* Nimble test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CA757E2BF4D576006971EA /* Nimble_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_testApp.swift; sourceTree = "<group>"; };
+		52CA75802BF4D576006971EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52CA75822BF4D578006971EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52CA75852BF4D578006971EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52CA758B2BF4D578006971EA /* Nimble testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CA758F2BF4D578006971EA /* Nimble_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_testTests.swift; sourceTree = "<group>"; };
+		52CA75952BF4D578006971EA /* Nimble testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CA75992BF4D578006971EA /* Nimble_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_testUITests.swift; sourceTree = "<group>"; };
+		52CA759B2BF4D578006971EA /* Nimble_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CA75782BF4D576006971EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75882BF4D578006971EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75922BF4D578006971EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52CA75722BF4D576006971EA = {
+			isa = PBXGroup;
+			children = (
+				52CA757D2BF4D576006971EA /* Nimble test */,
+				52CA758E2BF4D578006971EA /* Nimble testTests */,
+				52CA75982BF4D578006971EA /* Nimble testUITests */,
+				52CA757C2BF4D576006971EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52CA757C2BF4D576006971EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CA757B2BF4D576006971EA /* Nimble test.app */,
+				52CA758B2BF4D578006971EA /* Nimble testTests.xctest */,
+				52CA75952BF4D578006971EA /* Nimble testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CA757D2BF4D576006971EA /* Nimble test */ = {
+			isa = PBXGroup;
+			children = (
+				52CA757E2BF4D576006971EA /* Nimble_testApp.swift */,
+				52CA75802BF4D576006971EA /* ContentView.swift */,
+				52CA75822BF4D578006971EA /* Assets.xcassets */,
+				52CA75842BF4D578006971EA /* Preview Content */,
+			);
+			path = "Nimble test";
+			sourceTree = "<group>";
+		};
+		52CA75842BF4D578006971EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52CA75852BF4D578006971EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52CA758E2BF4D578006971EA /* Nimble testTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CA758F2BF4D578006971EA /* Nimble_testTests.swift */,
+			);
+			path = "Nimble testTests";
+			sourceTree = "<group>";
+		};
+		52CA75982BF4D578006971EA /* Nimble testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52CA75992BF4D578006971EA /* Nimble_testUITests.swift */,
+				52CA759B2BF4D578006971EA /* Nimble_testUITestsLaunchTests.swift */,
+			);
+			path = "Nimble testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52CA757A2BF4D576006971EA /* Nimble test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CA759F2BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble test" */;
+			buildPhases = (
+				52CA75772BF4D576006971EA /* Sources */,
+				52CA75782BF4D576006971EA /* Frameworks */,
+				52CA75792BF4D576006971EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nimble test";
+			productName = "Nimble test";
+			productReference = 52CA757B2BF4D576006971EA /* Nimble test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CA758A2BF4D578006971EA /* Nimble testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CA75A22BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble testTests" */;
+			buildPhases = (
+				52CA75872BF4D578006971EA /* Sources */,
+				52CA75882BF4D578006971EA /* Frameworks */,
+				52CA75892BF4D578006971EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CA758D2BF4D578006971EA /* PBXTargetDependency */,
+			);
+			name = "Nimble testTests";
+			productName = "Nimble testTests";
+			productReference = 52CA758B2BF4D578006971EA /* Nimble testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52CA75942BF4D578006971EA /* Nimble testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CA75A52BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble testUITests" */;
+			buildPhases = (
+				52CA75912BF4D578006971EA /* Sources */,
+				52CA75922BF4D578006971EA /* Frameworks */,
+				52CA75932BF4D578006971EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CA75972BF4D578006971EA /* PBXTargetDependency */,
+			);
+			name = "Nimble testUITests";
+			productName = "Nimble testUITests";
+			productReference = 52CA75952BF4D578006971EA /* Nimble testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CA75732BF4D576006971EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					52CA757A2BF4D576006971EA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					52CA758A2BF4D578006971EA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 52CA757A2BF4D576006971EA;
+					};
+					52CA75942BF4D578006971EA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 52CA757A2BF4D576006971EA;
+					};
+				};
+			};
+			buildConfigurationList = 52CA75762BF4D576006971EA /* Build configuration list for PBXProject "Nimble test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52CA75722BF4D576006971EA;
+			productRefGroup = 52CA757C2BF4D576006971EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CA757A2BF4D576006971EA /* Nimble test */,
+				52CA758A2BF4D578006971EA /* Nimble testTests */,
+				52CA75942BF4D578006971EA /* Nimble testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52CA75792BF4D576006971EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA75862BF4D578006971EA /* Preview Assets.xcassets in Resources */,
+				52CA75832BF4D578006971EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75892BF4D578006971EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75932BF4D578006971EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CA75772BF4D576006971EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA75812BF4D576006971EA /* ContentView.swift in Sources */,
+				52CA757F2BF4D576006971EA /* Nimble_testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75872BF4D578006971EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA75902BF4D578006971EA /* Nimble_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA75912BF4D578006971EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA759A2BF4D578006971EA /* Nimble_testUITests.swift in Sources */,
+				52CA759C2BF4D578006971EA /* Nimble_testUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CA758D2BF4D578006971EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CA757A2BF4D576006971EA /* Nimble test */;
+			targetProxy = 52CA758C2BF4D578006971EA /* PBXContainerItemProxy */;
+		};
+		52CA75972BF4D578006971EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CA757A2BF4D576006971EA /* Nimble test */;
+			targetProxy = 52CA75962BF4D578006971EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52CA759D2BF4D578006971EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52CA759E2BF4D578006971EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CA75A02BF4D578006971EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble test/Preview Content\"";
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52CA75A12BF4D578006971EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble test/Preview Content\"";
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52CA75A32BF4D578006971EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nimble test";
+			};
+			name = Debug;
+		};
+		52CA75A42BF4D578006971EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nimble test";
+			};
+			name = Release;
+		};
+		52CA75A62BF4D578006971EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nimble test";
+			};
+			name = Debug;
+		};
+		52CA75A72BF4D578006971EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2F6AS7TD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Nimble-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nimble test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52CA75762BF4D576006971EA /* Build configuration list for PBXProject "Nimble test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA759D2BF4D578006971EA /* Debug */,
+				52CA759E2BF4D578006971EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CA759F2BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA75A02BF4D578006971EA /* Debug */,
+				52CA75A12BF4D578006971EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CA75A22BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA75A32BF4D578006971EA /* Debug */,
+				52CA75A42BF4D578006971EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CA75A52BF4D578006971EA /* Build configuration list for PBXNativeTarget "Nimble testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA75A62BF4D578006971EA /* Debug */,
+				52CA75A72BF4D578006971EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52CA75732BF4D576006971EA /* Project object */;
+}
